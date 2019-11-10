@@ -17,7 +17,7 @@ import android.view.ViewGroup
 import com.example.aspmobile.R
 
 
-private const val pdfSource = "param1"
+private const val pdfSource = "backprop_old.pdf"
 
 
 class PDFReader : Fragment() {
