@@ -72,7 +72,7 @@ class PDFReaderFragment : Fragment() {
         }
     }
     private fun displayPdf(filePath: String) {
-        pdfView.fromAsset("backprop_old.pdf").load()
+        pdfView.fromAsset("backprop_old.pdf").pageSnap(true).pageFling(true).swipeHorizontal(true).load()
 //        val file = File(filePath)
 //
 //        if (file.exists()) {
